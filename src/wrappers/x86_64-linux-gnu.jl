@@ -17,7 +17,7 @@ function __init__()
     JLLWrappers.@generate_init_header()
     JLLWrappers.@init_library_product(
         libgurobi,
-        "gurobi1300/linux64/lib/libgurobi120.so",
+        "gurobi1300/linux64/lib/libgurobi130.so",
         RTLD_LAZY | RTLD_DEEPBIND,
     )
     JLLWrappers.@init_executable_product(gurobi_cl, "gurobi1300/linux64/bin/gurobi_cl")
