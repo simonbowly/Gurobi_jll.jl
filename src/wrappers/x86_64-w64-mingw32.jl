@@ -17,11 +17,11 @@ function __init__()
     JLLWrappers.@generate_init_header()
     JLLWrappers.@init_library_product(
         libgurobi,
-        "gurob1300/win64/bin/gurobi130.dll",
+        "gurob1300\win64\bin\gurobi130.dll",
         RTLD_LAZY | RTLD_DEEPBIND,
     )
-    JLLWrappers.@init_executable_product(gurobi_cl, "gurob1300/win64/bin/gurobi_cl.exe")
-    JLLWrappers.@init_executable_product(grbgetkey, "gurob1300/win64/bin/grbgetkey.exe")
+    JLLWrappers.@init_executable_product(gurobi_cl, "gurob1300\win64\bin\gurobi_cl.exe")
+    JLLWrappers.@init_executable_product(grbgetkey, "gurob1300\win64\bin\grbgetkey.exe")
     JLLWrappers.@generate_init_footer()
     return
 end  # __init__()
