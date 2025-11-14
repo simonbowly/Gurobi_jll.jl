@@ -15,7 +15,7 @@ os = "linux"
     sha256 = "d301613332cad505620dcd192ccfe855e9ad456d20f8544944514e2ff7a23851"
     url = "https://packages.gurobi.com/13.0/gurobi13.0.0_armlinux64.tar.gz"
 [[Gurobi]]
-git-tree-sha1 = "f1285493f4c450f54c96d8ca4ce5b502c341bb32"
+git-tree-sha1 = "5880b5e4612ccf8d60680288f5cbeb8d7429f765"
 arch = "x86_64"
 os = "windows"
 
