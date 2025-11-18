@@ -29,7 +29,7 @@ os = "macos"
 
     [[Gurobi.download]]
     sha256 = "85ac3591eadea53d041fa5b19ba61582c567a43aabfe04e36780c88acf35f36c"
-    url = "https://packages.gurobi.com/13.0/gurobi13.0.0_macos_universal2.tar.gz"
+    url = "http://localhost:8000/13.0/gurobi13.0.0_macos_universal2.tar.gz"
 [[Gurobi]]
 git-tree-sha1 = "5880b5e4612ccf8d60680288f5cbeb8d7429f765"
 arch = "x86_64"
